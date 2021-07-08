@@ -3,9 +3,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
 
 ## Descrpition 
 
-
-
-
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 
 ## Tech-Used
@@ -22,7 +20,7 @@ A consumer will reach their fitness goals more quickly when they track their wor
 
 
 ## Local-Installation
- 1. Clone the repository onto you local machine []
+ 1. Clone the repository onto you local machine
  2. Run the "npm install" command in your terminal/gitbash
  3. Run the command "npm run seed" in your terminal/gitbash
  4. Run the command "npm start" to start the server
@@ -49,8 +47,8 @@ After the user enters all the data and selects 'Add Exercise' the workout is aut
 
 
 ## Deployed Links 
-[Heroku Link](https://afternoon-thicket-12508.herokuapp.com/)
-[GitHub Repository](https://github.com/KENSTONEJAY/FitTrackr17)
+  * [Heroku Link](https://afternoon-thicket-12508.herokuapp.com/)
+  * [GitHub Repository](https://github.com/KENSTONEJAY/FitTrackr17)
 
 ## Contacts
 [Ken Otuo](https://github.com/KENSTONEJAY)
