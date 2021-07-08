@@ -50,6 +50,7 @@ After the user enters all the data and selects 'Add Exercise' the workout is aut
 
 ## Deployed Links 
 [Heroku Link](https://afternoon-thicket-12508.herokuapp.com/)
+[GitHub Repository](https://github.com/KENSTONEJAY/FitTrackr17)
 
 ## Contacts
 [Ken Otuo](https://github.com/KENSTONEJAY)
