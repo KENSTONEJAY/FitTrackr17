@@ -1,6 +1,7 @@
 const db = require("../models");
 const router = require("express").Router();
 
+//
 router.post("/api/workouts", (req, res) => {
   db.Workout.create(req.body)
     .then(dbWorkout => {
@@ -29,7 +30,8 @@ router.get("/api/workouts", (req, res) => {
         $sum: "$exercises.duration"
       }
     }}
-  ]).then(dbWorkout => {
+  ])
+    .then(dbWorkout => {
         res.json(dbWorkout);
       })
       .catch(err => {
@@ -44,9 +46,11 @@ router.get("/api/workouts/range", (req, res) => {
         $sum: "$exercises.duration"
       }
     }}
-  ]).sort( {
+  ])
+    .sort( {
     _id: -1
-  }).limit(10)
+  })
+    .limit(10)
     .then(dbWorkout => {
         res.json(dbWorkout);
       })

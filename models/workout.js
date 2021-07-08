@@ -2,10 +2,14 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WorkoutSchema = new Schema({
+    
+    //date object model 
     day: {
       type: Date,
       default: Date.now
     },
+    
+    //workout object model - KSJ
     exercises: [
         {
           type: {
